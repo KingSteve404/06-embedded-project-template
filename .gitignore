@@ -1,3 +1,6 @@
+#==========================
+# Keil编译输出
+#==========================
 MDK-ARM/Objects/
 MDK-ARM/Listings/
 MDK-ARM/*.uvguix.*
@@ -5,6 +8,8 @@ MDK-ARM/*.uvgui.*
 MDK-ARM/*.bak
 MDK-ARM/JlinkLog.txt
 MDK-ARM/JlinkSettings.ini
+
+#中间编译文件
 *.o
 *.d
 *.axf
@@ -19,6 +24,7 @@ MDK-ARM/JlinkSettings.ini
 *.lnp
 *.ini
 EventRecorderStub.scvd
+
 #系统文件
 desktop.ini
 Thumbs.db
